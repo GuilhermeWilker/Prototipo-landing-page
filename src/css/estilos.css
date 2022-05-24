@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* ESTILIZAÇÃO DE HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    font-size: 2.5em;
+}
+
+nav {
+    font-size: 1.1em;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 40%;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #E63E44;
+    transition: 0.3s all;
+}
+
+.inscreva-se-btn {
+    border: 2px solid #E63E44;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.inscreva-se-btn:hover {
+    background-color: #E63E44;
+    color: white;
+}
+
+
+/* ESTILIZAÇÃO DO RELÓGIO */
+.relogio {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 77px;
+    width: 417px;
+}
+
+.relogio div{
+    text-align: center;
+    width: 100px;
+    height: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E63E44;
+    color: white;
+    letter-spacing: 3.2px;
+    border-radius: 7px;
+}
+
+.relogio span {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.relogio span.tempo {
+    font-weight: 500;
+    font-size: 11.5px;
+}
+
+
+/* ESTILIZAÇÃO DE CONTÉUDO SECTION */
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+section {
+    font-family: 'Roboto';
+    width: 50%;
+    margin-right: 5%;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+}
+
+span.textual {
+    color: #47B4DE;
+}
+
+img {
+    width: 530px;
+    margin-top: 30px;
+}
+
+/* ESTILIZAÇÃO DE CONTÉUDO ASIDE */
+.titulo-relogio {
+    font-size: 13px;
+    font-weight: thin;
+    color: rgb(179, 172, 172);
+}
+
+.titulo-relogio:hover {
+    color:#47B4DE;
+    transition: .4s all;
+    cursor: pointer;
+    
+}
+
+.paragrafo-aside {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 31px;
+    margin-left: 143px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 60px;
+    width: 50%;
+}
+
+input {
+    cursor: pointer;
+    background-color: #42e0f523;
+    margin-top: -15px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+input:hover {
+    color: white;
+    background-color: #47B4DE;
+    transition: .5s all;
+}
